@@ -32,6 +32,16 @@
 		}
 	}
 
+	@include respond(phone) {
+		height: 110%;
+		padding: 5rem 3rem;
+	}
+
+	@include respond(tab-port) {
+		height: 110%;
+		padding: 5rem 3rem;
+	}
+
 	&__left {
 		width: 33.333333%;
 		display: table-cell;
@@ -84,9 +94,9 @@
 			}
 		}
 
-		@include respond(tab-land) {
-			padding-left: 2rem;
-		}
+		// @include respond(tab-land) {
+		// 	padding-le
+		// }
 	}
 
 	&__text {
